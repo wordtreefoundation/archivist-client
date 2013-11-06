@@ -5,7 +5,7 @@ require_relative 'body'
 
 module Archivist
   module Model
-    class Response
+    class QueryResponse
       include Virtus.model
 
       attribute :header, Header

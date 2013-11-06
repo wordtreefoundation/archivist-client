@@ -7,7 +7,7 @@ require_relative 'body'
 
 module Archivist
   module Representation
-    class Response < Representable::Decorator
+    class QueryResponse < Representable::Decorator
       include Representable::JSON
       
       property :header, :as => "responseHeader",
