@@ -10,6 +10,10 @@ module Archivist
 
       attribute :header, Header
       attribute :body, Body
+
+      def each(&block)
+        body.docs.each(&block)
+      end
     end
   end
 end

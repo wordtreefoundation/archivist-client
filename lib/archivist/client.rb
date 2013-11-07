@@ -5,7 +5,7 @@ require 'archivist/representations'
 module Archivist
   class Client
     attr_reader :conn
-    
+
     def initialize(opts = {})
       @opts = {
         :page => 1,
