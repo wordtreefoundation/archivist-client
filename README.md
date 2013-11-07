@@ -22,7 +22,7 @@ books = client.search(:start_year => 1500, :end_year => 1510)
 
 Download them:
 ```ruby
-books.each do |d|
-  puts d.download
+books.each do |book|
+  puts book.download
 end
 ```
