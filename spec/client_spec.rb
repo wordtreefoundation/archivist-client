@@ -13,13 +13,5 @@ describe Archivist::Client do
         response.body.docs.size.should == 31
       end
     end
-
-    it "gets download links per doc" do
-      document.identifier = "firstbooknapole00gruagoog"
-      VCR.use_cassette('links') do
-        index = client.index(document)
-        index.text_format.name.should == "firstbooknapole00gruagoog_djvu.txt"
-      end
-    end
   end
 end

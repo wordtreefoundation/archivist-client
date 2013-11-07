@@ -4,6 +4,8 @@ require 'archivist/representations'
 
 module Archivist
   class Client
+    attr_reader :conn
+    
     def initialize(opts = {})
       @opts = {
         :page => 1,
@@ -57,14 +59,6 @@ module Archivist
         response = @conn.get("/advancedsearch.php", params(opts))
         Representation::QueryResponse.new(qr).from_json(response.body)
       end
-    end
-
-    def index(doc)
-      response = @conn.get(doc.download_xml_path)
-      Model::FormatIndex.new.tap do |idx|
-        Representation::FormatIndex.new(idx).from_xml(response.body)
-      end
-      # /download/#{id}/#{filename}
     end
   end
 end
