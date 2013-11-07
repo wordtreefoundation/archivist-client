@@ -1,7 +1,14 @@
-Archivist is an archive.org client
+Archivist
+=========
+
+an *archive.org* Ruby client
 
 Getting Started
 ---------------
+
+```ruby
+require 'archivist'
+```
 
 Create an Archivist client:
 ```ruby
