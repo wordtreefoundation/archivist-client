@@ -30,4 +30,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency "virtus", "~> 1.0.0"
   gem.add_dependency "representable"
   gem.add_dependency "faraday"
+  gem.add_dependency "faraday_middleware"
 end

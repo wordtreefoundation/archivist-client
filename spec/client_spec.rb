@@ -3,6 +3,7 @@ require_relative 'spec_helper'
 require 'archivist/client'
 
 describe Archivist::Client do
+  let(:document) { Archivist::Model::Document.new }
   let(:client) { Archivist::Client.new }
 
   context "searching" do
@@ -10,6 +11,14 @@ describe Archivist::Client do
       VCR.use_cassette('search') do
         response = client.search(:start_year => 1500, :end_year => 1550, :page => 1)
         response.body.docs.size.should == 31
+      end
+    end
+
+    it "gets download links per doc" do
+      document.identifier = "firstbooknapole00gruagoog"
+      VCR.use_cassette('links') do
+        index = client.index(document)
+        index.text_format.name.should == "firstbooknapole00gruagoog_djvu.txt"
       end
     end
   end

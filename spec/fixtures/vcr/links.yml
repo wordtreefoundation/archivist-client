@@ -1,0 +1,127 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://archive.org/download/firstbooknapole00gruagoog/firstbooknapole00gruagoog_files.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+  response:
+    status:
+      code: 302
+      message: Moved Temporarily
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Thu, 07 Nov 2013 03:22:15 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.10-1ubuntu3.2
+      Accept-Ranges:
+      - bytes
+      Location:
+      - http://ia700307.us.archive.org/23/items/firstbooknapole00gruagoog/firstbooknapole00gruagoog_files.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Thu, 07 Nov 2013 03:22:15 GMT
+- request:
+    method: get
+    uri: http://ia700307.us.archive.org/23/items/firstbooknapole00gruagoog/firstbooknapole00gruagoog_files.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbngvMS4xLjE5
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VGh1LCAwNyBOb3YgMjAxMyAwMzoyMjoxNSBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC94bWw=
+      !binary "TGFzdC1Nb2RpZmllZA==":
+      - !binary |-
+        RnJpLCAxOSBOb3YgMjAxMCAwMzowNTozNyBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        VGh1LCAwNyBOb3YgMjAxMyAwOToyMjoxNSBHTVQ=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bWF4LWFnZT0yMTYwMA==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        js9vbwHVMsvav3hz8R/MlD5c6RAAAA==
+    http_version: 
+  recorded_at: Thu, 07 Nov 2013 03:22:16 GMT
+recorded_with: VCR 2.2.5

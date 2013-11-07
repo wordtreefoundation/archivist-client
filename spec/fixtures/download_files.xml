@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="firstbooknapole00gruagoog_meta.xml" source="metadata">
+    <format>Metadata</format>
+    <mtime>1243247247</mtime>
+    <size>1277</size>
+    <md5>e9788c2d6bb8e17da705fac48ba191fa</md5>
+    <crc32>e550f539</crc32>
+    <sha1>cbb314c8a0c9f38fc16253637db97684728827d0</sha1>
+  </file>
+  <file name="firstbooknapole00gruagoog_desc.html" source="original">
+    <format>Metadata</format>
+    <original-name>books?id=6scCAAAAYAAJ&amp;oe=UTF-8</original-name>
+    <size>23775</size>
+    <atime>1185590020</atime>
+    <mtime>1185576678</mtime>
+    <ctime>1185590020</ctime>
+    <md5>e32b177b2c6e6be884ec16c8d8969ab2</md5>
+    <sha1>a2b13cd121dd30c1f7e564931e3b20e17aa969d3</sha1>
+    <crc32>df3dcf2a</crc32>
+  </file>
+  <file name="firstbooknapole00gruagoog_flippy.zip" source="derivative">
+    <format>Flippy ZIP</format>
+    <original>firstbooknapole00gruagoog_tif.zip</original>
+    <md5>9c0a36950feace10295d21808afb9f7c</md5>
+    <mtime>1213982025</mtime>
+    <size>8066929</size>
+    <crc32>53f5289</crc32>
+    <sha1>c5508c67716ac66da879cc7b4ae80a1b79aea8e7</sha1>
+  </file>
+  <file name="firstbooknapole00gruagoog_abbyy.gz" source="derivative">
+    <format>Abbyy GZ</format>
+    <original>firstbooknapole00gruagoog_tif.zip</original>
+    <md5>010cb07b57b37f770dcf2b84218429ea</md5>
+    <mtime>1213983199</mtime>
+    <size>2193095</size>
+    <crc32>e8437080</crc32>
+    <sha1>0c2503f2b44bb779228b2f8b204052d8b767eadc</sha1>
+  </file>
+  <file name="firstbooknapole00gruagoog_scandata.xml" source="derivative">
+    <format>Scandata</format>
+    <original>firstbooknapole00gruagoog_djvu.xml</original>
+    <md5>a3c97579f8029d85f97da45d16c6c336</md5>
+    <mtime>1243247240</mtime>
+    <size>48407</size>
+    <crc32>d13bc554</crc32>
+    <sha1>a72e3877956915f2f8ca17e18ddc625aa4b3d8a8</sha1>
+  </file>
+  <file name="firstbooknapole00gruagoog_tif.zip" source="derivative">
+    <format>Single Page Processed TIFF ZIP</format>
+    <original>firstbooknapole00gruagoog.pdf</original>
+    <md5>e81a2968d4e82a605acc1ed2fa1a82bc</md5>
+    <mtime>1213981431</mtime>
+    <size>6593452</size>
+    <crc32>a03ad159</crc32>
+    <sha1>81e3d45a4f64b2deda406d8df99c378330ca59d3</sha1>
+  </file>
+  <file name="firstbooknapole00gruagoog.gif" source="derivative">
+    <format>Animated GIF</format>
+    <original>firstbooknapole00gruagoog_tif.zip</original>
+    <md5>bd69541440b72a570ff1a24ae9243ddb</md5>
+    <mtime>1213981465</mtime>
+    <size>105290</size>
+    <crc32>dfd774e9</crc32>
+    <sha1>e55b43e3bb588a194863e0466f5978d58dfc4ff6</sha1>
+  </file>
+  <file name="firstbooknapole00gruagoog.pdf" source="original">
+    <format>Image Container PDF</format>
+    <original-name>The_First_Book_of_Napoleon__the_Tyrant_o.pdf?id=6scCAAAAYAAJ&amp;output=pdf&amp;sig=13CxNmetO67msnXkK6niFe11YyU</original-name>
+    <size>3768681</size>
+    <atime>1193859275</atime>
+    <mtime>1193844959</mtime>
+    <ctime>1193859275</ctime>
+    <md5>3b99679a0dc05bd5b9195101f71a42ee</md5>
+    <sha1>8f293916498a217e46154ce738a815e8faf560f0</sha1>
+    <crc32>c34519b2</crc32>
+  </file>
+  <file name="firstbooknapole00gruagoog_djvu.txt" source="derivative">
+    <format>DjVuTXT</format>
+    <original>firstbooknapole00gruagoog.djvu</original>
+    <md5>6c5b8b505a8786d2c16988234eb6bb42</md5>
+    <mtime>1213983393</mtime>
+    <size>134296</size>
+    <crc32>1dec7714</crc32>
+    <sha1>d587dd13b13f6a501206288ab244c79638f97023</sha1>
+  </file>
+  <file name="firstbooknapole00gruagoog_djvu.xml" source="derivative">
+    <format>Djvu XML</format>
+    <original>firstbooknapole00gruagoog_abbyy.gz</original>
+    <md5>6cf01b547002d8b946b50ac29a70f4e4</md5>
+    <mtime>1213983272</mtime>
+    <size>1394702</size>
+    <crc32>764e007e</crc32>
+    <sha1>d44678260b628d2fe29ede6b24a0447eecd32d28</sha1>
+  </file>
+  <file name="firstbooknapole00gruagoog.djvu" source="derivative">
+    <format>DjVu</format>
+    <original>firstbooknapole00gruagoog_djvu.xml</original>
+    <md5>45ce5a558003430831943f944da46056</md5>
+    <mtime>1213983375</mtime>
+    <size>3348964</size>
+    <crc32>52851d81</crc32>
+    <sha1>6f60f54b9fb6c11422ec37723d1dfdd770466b37</sha1>
+  </file>
+  <file name="firstbooknapole00gruagoog_files.xml" source="metadata">
+    <format>Metadata</format>
+    <md5>dfe001248ad7a1e03bba63c2f6481b37</md5>
+  </file>
+</files>

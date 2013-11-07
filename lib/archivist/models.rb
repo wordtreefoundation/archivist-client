@@ -1,5 +1,7 @@
 require 'archivist/models/body'
 require 'archivist/models/document'
+require 'archivist/models/file_format'
+require 'archivist/models/format_index'
 require 'archivist/models/header'
 require 'archivist/models/parameters'
 require 'archivist/models/query_response'

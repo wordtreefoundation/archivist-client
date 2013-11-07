@@ -1,4 +1,5 @@
 require 'faraday'
+require 'faraday_middleware'
 require 'archivist/representations'
 
 module Archivist
@@ -10,6 +11,7 @@ module Archivist
       }.merge(opts)
 
       @conn = Faraday.new(:url => "http://archive.org") do |faraday|
+        faraday.use FaradayMiddleware::FollowRedirects
         faraday.request  :url_encoded             # form-encode POST params
         # faraday.response :logger                  # log requests to STDOUT
         faraday.adapter  Faraday.default_adapter  # make requests with Net::HTTP
@@ -55,6 +57,14 @@ module Archivist
         response = @conn.get("/advancedsearch.php", params(opts))
         Representation::QueryResponse.new(qr).from_json(response.body)
       end
+    end
+
+    def index(doc)
+      response = @conn.get(doc.download_xml_path)
+      Model::FormatIndex.new.tap do |idx|
+        Representation::FormatIndex.new(idx).from_xml(response.body)
+      end
+      # /download/#{id}/#{filename}
     end
   end
 end
