@@ -13,7 +13,7 @@ module Archivist
       attribute :creators, Array[String]
 
       def initialize
-        @conn = Faraday.new(:url => "http://archive.org") do |faraday|
+        @conn = Faraday.new(url: "http://archive.org") do |faraday|
           faraday.use FaradayMiddleware::FollowRedirects
           faraday.request  :url_encoded             # form-encode POST params
           # faraday.response :logger                  # log requests to STDOUT
