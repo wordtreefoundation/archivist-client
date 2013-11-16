@@ -25,12 +25,12 @@ module Archivist
         '-mediatype:collection'
       ]
 
-      filters << opts.delete(:filters) if opts[:filters]
+      filters.concat(opts.delete(:filters)) if opts[:filters]
 
-      if opts[:language]
-        filters << "language:#{opts.delete(:language)}"
+      filters << if opts[:language]
+        "language:#{opts.delete(:language)}"
       else
-        filters << '(language:eng OR language:English)'
+        '(language:eng OR language:English)'
       end
 
       if opts[:start_year] && opts[:end_year]
