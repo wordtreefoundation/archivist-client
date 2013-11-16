@@ -8,12 +8,12 @@ module Archivist
   module Representation
     class Body < Representable::Decorator
       include Representable::JSON
-      
-      property :num_found, :as => "numFound"
+
+      property :num_found, as: "numFound"
       property :start
       collection :docs,
-                 :class => Model::Document,
-                 :decorator => Document
+                 class: Model::Document,
+                 decorator: Document
     end
   end
 end

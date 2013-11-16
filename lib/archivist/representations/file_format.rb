@@ -7,8 +7,8 @@ module Archivist
     class FileFormat < Representable::Decorator
       include Representable::XML
 
-      property :name, :attribute => true
-      property :source, :attribute => true
+      property :name, attribute: true
+      property :source, attribute: true
 
       property :format
       property :mtime

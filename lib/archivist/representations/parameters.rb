@@ -6,9 +6,9 @@ module Archivist
   module Representation
     class Parameters < Representable::Decorator
       include Representable::JSON
-      
+
       property :rows
-      property :format, :as => "wt"
+      property :format, as: "wt"
       property :start
       property :q
       property :qin

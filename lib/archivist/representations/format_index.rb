@@ -9,9 +9,9 @@ module Archivist
 
       self.representation_wrap = 'files'
 
-      collection :formats, :as => 'file',
-                 :class => Model::FileFormat,
-                 :decorator => FileFormat
+      collection :formats, as: 'file',
+                 class: Model::FileFormat,
+                 decorator: FileFormat
     end
   end
 end
