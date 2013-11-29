@@ -12,7 +12,11 @@ module Archivist
       attribute :body, Body
 
       def each(&block)
-        body.docs.each(&block)
+        body && body.docs.each(&block)
+      end
+
+      def empty?
+        body && body.docs.empty?
       end
     end
   end
