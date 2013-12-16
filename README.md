@@ -26,3 +26,6 @@ books.each do |book|
   puts book.download
 end
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wordtreefoundation/archivist/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
