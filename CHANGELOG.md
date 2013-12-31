@@ -1,6 +1,9 @@
-# HEAD
+# Version 0.1.4 /* DEC.31.2013
 
 * Turned on Travis CI by Peter Boling
+* removed rbx-19mode and jruby-19mode from Travis by Peter Boling
+* Undid the PrimaDonnaMethods in the Archivist::Client::Filters class by Peter Boling
+  * See https://github.com/troessner/reek/issues/51
 
 # Version 0.1.3 /* DEC.31.2013
 
