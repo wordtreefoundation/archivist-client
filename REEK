@@ -1,4 +1,5 @@
-lib/archivist.rb -- 0 warnings
+lib/archivist-client.rb -- 0 warnings
+lib/archivist/client.rb -- 0 warnings
 lib/archivist/client/base.rb -- 0 warnings
 lib/archivist/client/filters.rb -- 0 warnings
 lib/archivist/client/version.rb -- 0 warnings
