@@ -1,3 +1,7 @@
+# Version 0.1.3 /* DEC.31.2013
+
+* Handle require 'archivist-client' as well as 'archivist/client' by Peter Boling
+
 # Version 0.1.2 /* DEC.31.2013
 
 * Synchronized versions across git tags, rubygems, and the VERSION internal constant by Peter Boling
