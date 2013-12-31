@@ -5,8 +5,8 @@ require 'archivist/client/version'
 
 Gem::Specification.new do |gem|
   gem.name = "archivist-client"
-  gem.summary = "ArchivistClient is an archive.org client library"
-  gem.description = "ArchivistClient queries archive.org for book data and downloads some things."
+  gem.summary = "archivist-client is an archive.org client library"
+  gem.description = "archivist-client queries archive.org for book data and downloads some things."
   gem.homepage = "http://github.com/canadaduane/archivist-client"
   gem.authors = ['Duane Johnson','Peter Boling']
   gem.email = ['duane.johnson@gmail.com', 'peter.boling@gmail.com']

@@ -3,7 +3,7 @@ ArchiveClient
 
 an *archive.org* Ruby client
 
-| Project                 |  ArchiveClient    |
+| Project                 |  Archive::Client    |
 |------------------------ | ----------------- |
 | gem name                |  archive-client   |
 | license                 |  MIT              |
