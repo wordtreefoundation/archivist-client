@@ -1,10 +1,9 @@
 lib/archivist.rb -- 0 warnings
-lib/archivist/client/base.rb -- 5 warnings:
-  [7]:Archivist::Client::Base has no descriptive comment (IrresponsibleModule)
-  [10]:Archivist::Client::Base#initialize refers to faraday more than self (FeatureEnvy)
-  [23]:Archivist::Client::Base#query doesn't depend on instance state (UtilityFunction)
-  [23]:Archivist::Client::Base#query has approx 8 statements (TooManyStatements)
-  [23]:Archivist::Client::Base#query refers to opts more than self (FeatureEnvy)
+lib/archivist/client/base.rb -- 4 warnings:
+  [21]:Archivist::Client::Base#initialize refers to faraday more than self (FeatureEnvy)
+  [34]:Archivist::Client::Base#query doesn't depend on instance state (UtilityFunction)
+  [34]:Archivist::Client::Base#query has approx 8 statements (TooManyStatements)
+  [34]:Archivist::Client::Base#query refers to opts more than self (FeatureEnvy)
 lib/archivist/client/version.rb -- 0 warnings
 lib/archivist/models.rb -- 0 warnings
 lib/archivist/models/body.rb -- 1 warning:
@@ -38,4 +37,4 @@ lib/archivist/representations/parameters.rb -- 1 warning:
   [7]:Archivist::Representation::Parameters has no descriptive comment (IrresponsibleModule)
 lib/archivist/representations/query_response.rb -- 1 warning:
   [10]:Archivist::Representation::QueryResponse has no descriptive comment (IrresponsibleModule)
-21 total warnings
+20 total warnings
