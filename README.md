@@ -1,4 +1,4 @@
-ArchiveClient
+Archivist::Client
 =========
 
 an *archive.org* Ruby client
