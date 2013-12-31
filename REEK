@@ -6,7 +6,7 @@ lib/archivist/models.rb -- 0 warnings
 lib/archivist/models/body.rb -- 1 warning:
   [7]:Archivist::Model::Body has no descriptive comment (IrresponsibleModule)
 lib/archivist/models/document.rb -- 1 warning:
-  [6]:Archivist::Model::Document has no descriptive comment (IrresponsibleModule)
+  [8]:Archivist::Model::Document has no descriptive comment (IrresponsibleModule)
 lib/archivist/models/file_format.rb -- 1 warning:
   [5]:Archivist::Model::FileFormat has no descriptive comment (IrresponsibleModule)
 lib/archivist/models/format_index.rb -- 1 warning:
