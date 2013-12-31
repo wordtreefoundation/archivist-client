@@ -1,4 +1,4 @@
-# Version 0.1.2 /* DEC.30.2013
+# Version 0.1.2 /* DEC.31.2013
 
 * Synchronized versions across git tags, rubygems, and the VERSION internal constant by Peter Boling
 * Improved documentation by Peter Boling
