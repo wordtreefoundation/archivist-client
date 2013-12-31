@@ -15,10 +15,8 @@ an *archive.org* Ruby client
 | test coverage           |  [![Coverage Status](https://coveralls.io/repos/wordtreefoundation/archive-client/badge.png)](https://coveralls.io/r/wordtreefoundation/archive-client) |
 | homepage                |  [https://github.com/wordtreefoundation/archive-client][homepage] |
 | documentation           |  [http://rdoc.info/github/wordtreefoundation/archive-client/frames][documentation] |
-| authors                 |  [Duane Johnson](https://coderbits.com/canadaduane) |
-|                         |  [Peter Boling](https://coderbits.com/pboling) |
-| Spread ~♡ⓛⓞⓥⓔ♡~      |  [![Endorse Duane](https://api.coderwall.com/canadaduane/endorsecount.png)](http://coderwall.com/canadaduane) |
-|                         |  [![Endorse Peter](https://api.coderwall.com/pboling/endorsecount.png)](http://coderwall.com/pboling) |
+| authors                 |  [Duane Johnson](https://coderbits.com/canadaduane) [![Endorse Duane](https://api.coderwall.com/canadaduane/endorsecount.png)](http://coderwall.com/canadaduane) |
+|                         |  [Peter Boling](https://coderbits.com/pboling) [![Endorse Peter](https://api.coderwall.com/pboling/endorsecount.png)](http://coderwall.com/pboling) |
 
 
 Getting Started
