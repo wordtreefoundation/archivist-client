@@ -7,7 +7,7 @@ module Archivist
   module Client
     # This is the primary interface of the gem.
     # Example Usage:
-    #   require 'archive-client'
+    #   require 'archivist/client'
     #   # Create an Archivist client:
     #   client = Archivist::Client::Base.new
     #   # Search for the books you're interested in:

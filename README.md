@@ -5,16 +5,16 @@ an *archive.org* Ruby client
 
 | Project                 |  Archive::Client    |
 |------------------------ | ----------------- |
-| gem name                |  archive-client   |
+| gem name                |  archivist-client   |
 | license                 |  MIT              |
-| moldiness               |  [![Maintainer Status](http://stillmaintained.com/wordtreefoundation/archive-client.png)](http://stillmaintained.com/wordtreefoundation/archive-client) |
-| version                 |  [![Gem Version](https://badge.fury.io/rb/archive-client.png)](http://badge.fury.io/rb/archive-client) |
-| dependencies            |  [![Dependency Status](https://gemnasium.com/wordtreefoundation/archive-client.png)](https://gemnasium.com/wordtreefoundation/archive-client) |
-| code quality            |  [![Code Climate](https://codeclimate.com/github/wordtreefoundation/archive-client.png)](https://codeclimate.com/github/wordtreefoundation/archive-client) |
-| continuous integration  |  [![Build Status](https://secure.travis-ci.org/wordtreefoundation/archive-client.png?branch=master)](https://travis-ci.org/wordtreefoundation/archive-client) |
-| test coverage           |  [![Coverage Status](https://coveralls.io/repos/wordtreefoundation/archive-client/badge.png)](https://coveralls.io/r/wordtreefoundation/archive-client) |
-| homepage                |  [https://github.com/wordtreefoundation/archive-client][homepage] |
-| documentation           |  [http://rdoc.info/github/wordtreefoundation/archive-client/frames][documentation] |
+| moldiness               |  [![Maintainer Status](http://stillmaintained.com/wordtreefoundation/archivist-client.png)](http://stillmaintained.com/wordtreefoundation/archivist-client) |
+| version                 |  [![Gem Version](https://badge.fury.io/rb/archivist-client.png)](http://badge.fury.io/rb/archivist-client) |
+| dependencies            |  [![Dependency Status](https://gemnasium.com/wordtreefoundation/archivist-client.png)](https://gemnasium.com/wordtreefoundation/archivist-client) |
+| code quality            |  [![Code Climate](https://codeclimate.com/github/wordtreefoundation/archivist-client.png)](https://codeclimate.com/github/wordtreefoundation/archivist-client) |
+| continuous integration  |  [![Build Status](https://secure.travis-ci.org/wordtreefoundation/archivist-client.png?branch=master)](https://travis-ci.org/wordtreefoundation/archivist-client) |
+| test coverage           |  [![Coverage Status](https://coveralls.io/repos/wordtreefoundation/archivist-client/badge.png)](https://coveralls.io/r/wordtreefoundation/archivist-client) |
+| homepage                |  [https://github.com/wordtreefoundation/archivist-client][homepage] |
+| documentation           |  [http://rdoc.info/github/wordtreefoundation/archivist-client/frames][documentation] |
 | authors                 |  [Duane Johnson](https://coderbits.com/canadaduane) [![Endorse Duane](https://api.coderwall.com/canadaduane/endorsecount.png)](http://coderwall.com/canadaduane) |
 |                         |  [Peter Boling](https://coderbits.com/pboling) [![Endorse Peter](https://api.coderwall.com/pboling/endorsecount.png)](http://coderwall.com/pboling) |
 
@@ -23,7 +23,7 @@ Getting Started
 ---------------
 
 ```ruby
-require 'archive-client'
+require 'archivist/client'
 ```
 
 Create an Archivist client:
@@ -45,7 +45,7 @@ end
 
 ## Contributors
 
-See the [Network View](https://github.com/wordtreefoundation/archive-client/network) and the [CHANGELOG](https://github.com/wordtreefoundation/archive-client/blob/master/CHANGELOG.md)
+See the [Network View](https://github.com/wordtreefoundation/archivist-client/network) and the [CHANGELOG](https://github.com/wordtreefoundation/archivist-client/blob/master/CHANGELOG.md)
 
 ## How you can help!
 
@@ -90,7 +90,7 @@ For example:
 
 ## References
 
-* [Source Code](http://github.com/wordtreefoundation/archive-client)
+* [Source Code](http://github.com/wordtreefoundation/archivist-client)
 * [Release Announcement](http://www.textual-analysis.org/2013/11/archivist/)
 
 ## Legal
@@ -100,8 +100,8 @@ For example:
 
 [semver]: http://semver.org/
 [pvc]: http://docs.rubygems.org/read/chapter/16#page74
-[documentation]: http://rdoc.info/github/wordtreefoundation/archive-client/frames
-[homepage]: https://github.com/wordtreefoundation/archive-client
+[documentation]: http://rdoc.info/github/wordtreefoundation/archivist-client/frames
+[homepage]: https://github.com/wordtreefoundation/archivist-client
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wordtreefoundation/archive-client/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wordtreefoundation/archivist-client/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
