@@ -1,9 +1,3 @@
-lib/archivist-client.rb -- 0 warnings
-lib/archivist/client.rb -- 0 warnings
-lib/archivist/client/base.rb -- 0 warnings
-lib/archivist/client/filters.rb -- 0 warnings
-lib/archivist/client/version.rb -- 0 warnings
-lib/archivist/models.rb -- 0 warnings
 lib/archivist/models/body.rb -- 1 warning:
   [7]:Archivist::Model::Body has no descriptive comment (IrresponsibleModule)
 lib/archivist/models/document.rb -- 1 warning:
@@ -18,7 +12,6 @@ lib/archivist/models/parameters.rb -- 1 warning:
   [5]:Archivist::Model::Parameters has no descriptive comment (IrresponsibleModule)
 lib/archivist/models/query_response.rb -- 1 warning:
   [8]:Archivist::Model::QueryResponse has no descriptive comment (IrresponsibleModule)
-lib/archivist/representations.rb -- 0 warnings
 lib/archivist/representations/body.rb -- 1 warning:
   [9]:Archivist::Representation::Body has no descriptive comment (IrresponsibleModule)
 lib/archivist/representations/document.rb -- 1 warning:

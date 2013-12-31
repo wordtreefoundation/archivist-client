@@ -49,7 +49,7 @@ module Archivist
       private
 
       def query(opts)
-        @filters.update!(opts)
+        @filters.update(opts)
         @filters.to_query
       end
 
