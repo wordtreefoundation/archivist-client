@@ -5,7 +5,7 @@
 * Undid the PrimaDonnaMethods in the Archivist::Client::Filters class by Peter Boling
   * See https://github.com/troessner/reek/issues/51
 * Added Coveralls for code coverage by Peter Boling
-* Fixed the rdoc rake task for Ruby 1.9.2 by Peter Boling
+* Fixed the rdoc rake task for Ruby 1.9.2, added rdoc to Gemfile by Peter Boling
 
 # Version 0.1.3 /* DEC.31.2013
 
