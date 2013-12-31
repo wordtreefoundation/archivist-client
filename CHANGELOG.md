@@ -2,6 +2,7 @@
 
 * Synchronized versions across git tags, rubygems, and the VERSION internal constant by Peter Boling
 * Improved documentation by Peter Boling
+* New Archivist::Client::Filters class to manage the filters being used in each query to Archive.org by Peter Boling
 
 # Version 0.1.1 /* DEC.30.2013
 
