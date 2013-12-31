@@ -1,3 +1,7 @@
+# HEAD
+
+* Turned on Travis CI by Peter Boling
+
 # Version 0.1.3 /* DEC.31.2013
 
 * Handle require 'archivist-client' as well as 'archivist/client' by Peter Boling
