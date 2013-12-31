@@ -1,5 +1,6 @@
 require 'faraday'
 require 'faraday_middleware'
+require 'archivist/client/constants'
 require 'archivist/client/filters'
 require 'archivist/representations'
 
@@ -17,11 +18,9 @@ module Archivist
     #     puts book.download
     #   end
     class Base
-      DEFAULT_CONNECTION = Faraday.new(url: 'http://archive.org') do |faraday|
-        faraday.use FaradayMiddleware::FollowRedirects
-        faraday.request  :url_encoded             # form-encode POST params
-        faraday.adapter  Faraday.default_adapter  # make requests with Net::HTTP
-      end
+
+      include Archivist::Client::Constants
+
       attr_reader :conn
       attr_accessor :filters # will be a Filters.new object
 

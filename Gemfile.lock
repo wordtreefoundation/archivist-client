@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    archivist-client (0.1.3)
+    archivist-client (0.1.4)
       faraday
       faraday_middleware
       representable
