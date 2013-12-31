@@ -1,0 +1,41 @@
+lib/archivist.rb -- 0 warnings
+lib/archivist/client/base.rb -- 5 warnings:
+  [7]:Archivist::Client::Base has no descriptive comment (IrresponsibleModule)
+  [10]:Archivist::Client::Base#initialize refers to faraday more than self (FeatureEnvy)
+  [23]:Archivist::Client::Base#query doesn't depend on instance state (UtilityFunction)
+  [23]:Archivist::Client::Base#query has approx 8 statements (TooManyStatements)
+  [23]:Archivist::Client::Base#query refers to opts more than self (FeatureEnvy)
+lib/archivist/client/version.rb -- 0 warnings
+lib/archivist/models.rb -- 0 warnings
+lib/archivist/models/body.rb -- 1 warning:
+  [7]:Archivist::Model::Body has no descriptive comment (IrresponsibleModule)
+lib/archivist/models/document.rb -- 2 warnings:
+  [6]:Archivist::Model::Document has no descriptive comment (IrresponsibleModule)
+  [15]:Archivist::Model::Document#initialize refers to faraday more than self (FeatureEnvy)
+lib/archivist/models/file_format.rb -- 1 warning:
+  [5]:Archivist::Model::FileFormat has no descriptive comment (IrresponsibleModule)
+lib/archivist/models/format_index.rb -- 2 warnings:
+  [5]:Archivist::Model::FormatIndex has no descriptive comment (IrresponsibleModule)
+  [11]:Archivist::Model::FormatIndex#find has the variable name 'f' (UncommunicativeVariableName)
+lib/archivist/models/header.rb -- 1 warning:
+  [7]:Archivist::Model::Header has no descriptive comment (IrresponsibleModule)
+lib/archivist/models/parameters.rb -- 1 warning:
+  [5]:Archivist::Model::Parameters has no descriptive comment (IrresponsibleModule)
+lib/archivist/models/query_response.rb -- 1 warning:
+  [8]:Archivist::Model::QueryResponse has no descriptive comment (IrresponsibleModule)
+lib/archivist/representations.rb -- 0 warnings
+lib/archivist/representations/body.rb -- 1 warning:
+  [9]:Archivist::Representation::Body has no descriptive comment (IrresponsibleModule)
+lib/archivist/representations/document.rb -- 1 warning:
+  [7]:Archivist::Representation::Document has no descriptive comment (IrresponsibleModule)
+lib/archivist/representations/file_format.rb -- 1 warning:
+  [7]:Archivist::Representation::FileFormat has no descriptive comment (IrresponsibleModule)
+lib/archivist/representations/format_index.rb -- 1 warning:
+  [7]:Archivist::Representation::FormatIndex has no descriptive comment (IrresponsibleModule)
+lib/archivist/representations/header.rb -- 1 warning:
+  [9]:Archivist::Representation::Header has no descriptive comment (IrresponsibleModule)
+lib/archivist/representations/parameters.rb -- 1 warning:
+  [7]:Archivist::Representation::Parameters has no descriptive comment (IrresponsibleModule)
+lib/archivist/representations/query_response.rb -- 1 warning:
+  [10]:Archivist::Representation::QueryResponse has no descriptive comment (IrresponsibleModule)
+21 total warnings
