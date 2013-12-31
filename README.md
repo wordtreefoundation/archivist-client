@@ -30,7 +30,7 @@ require 'archive-client'
 
 Create an Archivist client:
 ```ruby
-client = Archivist::Client.new
+client = Archivist::Client::Base.new
 ```
 
 Search for the books you're interested in:

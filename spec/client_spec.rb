@@ -1,10 +1,10 @@
 require_relative 'spec_helper'
 
-require 'archivist/client'
+require 'archivist/client/base'
 
-describe Archivist::Client do
+describe Archivist::Client::Base do
   let(:document) { Archivist::Model::Document.new }
-  let(:client) { Archivist::Client.new }
+  let(:client) { Archivist::Client::Base.new }
 
   context "searching" do
     it "returns a Response" do
