@@ -26,7 +26,7 @@ task :default => :spec
 
 require 'rdoc/task'
 require File.expand_path('../lib/archivist/client/version', __FILE__)
-Rake::RDocTask.new do |rdoc|
+RDoc::Task.new do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title    = "Archivist::Client #{Archivist::Client::VERSION}"
   rdoc.options << '--line-numbers'

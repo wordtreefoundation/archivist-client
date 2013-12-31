@@ -1,1 +1,11 @@
 .DS_Store
+*.sw?
+coverage
+pkg
+.idea
+spec/tmp
+*.gem
+.rvmrc
+Gemfile.lock
+gemfiles/*.lock
+rdoc/*
