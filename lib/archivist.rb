@@ -1,2 +1,2 @@
 require 'archivist/client'
-require 'archivist/version'
+require 'archivist/client/version'
