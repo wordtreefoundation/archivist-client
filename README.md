@@ -45,5 +45,8 @@ books.each do |book|
 end
 ```
 
+[documentation]: http://rdoc.info/github/wordtreefoundation/archive-client/frames
+[homepage]: https://github.com/wordtreefoundation/archive-client
+
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wordtreefoundation/archive-client/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
