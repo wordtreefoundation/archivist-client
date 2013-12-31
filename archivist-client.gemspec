@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.summary = "ArchivistClient is an archive.org client library"
   gem.description = "ArchivistClient queries archive.org for book data and downloads some things."
   gem.homepage = "http://github.com/canadaduane/archivist-client"
-  gem.authors = ['Duane Johnson']
-  gem.email = ['duane.johnson@gmail.com']
+  gem.authors = ['Duane Johnson','Peter Boling']
+  gem.email = ['duane.johnson@gmail.com', 'peter.boling@gmail.com']
   gem.licenses = ["MIT"]
 
   gem.files = %w[archivist-client.gemspec README.md]
