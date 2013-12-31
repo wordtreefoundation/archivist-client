@@ -2,6 +2,17 @@ require 'faraday'
 require 'faraday_middleware'
 require 'archivist/representations'
 
+# This is the primary interface of the gem.
+# Example Usage:
+#   require 'archive-client'
+#   # Create an Archivist client:
+#   client = Archivist::Client::Base.new
+#   # Search for the books you're interested in:
+#   books = client.search(:start_year => 1500, :end_year => 1510)
+#   # Download them:
+#   books.each do |book|
+#     puts book.download
+#   end
 module Archivist
   module Client
     class Base
