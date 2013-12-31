@@ -92,6 +92,7 @@ For example:
 
 * [Source Code](http://github.com/wordtreefoundation/archivist-client)
 * [Release Announcement](http://www.textual-analysis.org/2013/11/archivist/)
+* [The Archivist::Client Blog](http://www.textual-analysis.org/category/archivist/)
 
 ## Legal
 
