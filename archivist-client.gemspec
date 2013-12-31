@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.name = "archivist-client"
   gem.summary = "archivist-client is an archive.org client library"
   gem.description = "archivist-client queries archive.org for book data and downloads some things."
-  gem.homepage = "http://github.com/canadaduane/archivist-client"
+  gem.homepage = "http://github.com/wordtreefoundation/archivist-client"
   gem.authors = ['Duane Johnson','Peter Boling']
   gem.email = ['duane.johnson@gmail.com', 'peter.boling@gmail.com']
   gem.licenses = ["MIT"]
