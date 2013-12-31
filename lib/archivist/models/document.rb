@@ -5,6 +5,13 @@ module Archivist
   module Model
     class Document
       include Virtus.model
+      DEFAULT_CONNECTION = Faraday.new(url: 'http://archive.org') do |faraday|
+        faraday.use FaradayMiddleware::FollowRedirects
+        # faraday.response :logger                  # log requests to STDOUT
+        faraday.request  :url_encoded             # form-encode POST params
+        faraday.adapter  Faraday.default_adapter  # make requests with Net::HTTP
+      end
+      attr_reader :conn
 
       attribute :identifier, String
       attribute :title, String
@@ -13,12 +20,7 @@ module Archivist
       attribute :creators, Array[String]
 
       def initialize
-        @conn = Faraday.new(url: "http://archive.org") do |faraday|
-          faraday.use FaradayMiddleware::FollowRedirects
-          faraday.request  :url_encoded             # form-encode POST params
-          # faraday.response :logger                  # log requests to STDOUT
-          faraday.adapter  Faraday.default_adapter  # make requests with Net::HTTP
-        end
+        @conn = DEFAULT_CONNECTION
       end
 
       def format_index

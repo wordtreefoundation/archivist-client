@@ -1,5 +1,6 @@
 require 'faraday'
 require 'faraday_middleware'
+require 'archivist/client/filters'
 require 'archivist/representations'
 
 module Archivist
@@ -15,43 +16,41 @@ module Archivist
     #   books.each do |book|
     #     puts book.download
     #   end
-   class Base
+    class Base
+      DEFAULT_CONNECTION = Faraday.new(url: 'http://archive.org') do |faraday|
+        faraday.use FaradayMiddleware::FollowRedirects
+        faraday.request  :url_encoded             # form-encode POST params
+        faraday.adapter  Faraday.default_adapter  # make requests with Net::HTTP
+      end
       attr_reader :conn
+      attr_accessor :filters # will be a Filters.new object
 
-      def initialize(opts = {})
+      # filter_opts can be provided here, or when search is called.
+      # filters_opts are:
+      #   :language   => if *any* search opts provided there.
+      #   :start_year => search opts takes precedence when provided there.
+      def initialize(opts = {}, filter_opts = {})
+        @filters = Archivist::Client::Filters.new(filter_opts)
         @opts = {
           page: 1,
           rows: 50
         }.merge(opts)
 
-        @conn = Faraday.new(url: 'http://archive.org') do |faraday|
-          faraday.use FaradayMiddleware::FollowRedirects
-          faraday.request  :url_encoded             # form-encode POST params
-          faraday.adapter  Faraday.default_adapter  # make requests with Net::HTTP
+        @conn = DEFAULT_CONNECTION
+      end
+
+      def search(opts = {})
+        Model::QueryResponse.new.tap do |qr|
+          response = @conn.get('/advancedsearch.php', params(opts))
+          Representation::QueryResponse.new(qr).from_json(response.body)
         end
       end
 
+      private
+
       def query(opts)
-        filters = [
-          'mediatype:texts',
-          '-mediatype:collection'
-        ]
-
-        filters.concat(opts.delete(:filters)) if opts[:filters]
-
-        filters << if opts[:language]
-          "language:#{opts.delete(:language)}"
-        else
-          '(language:eng OR language:English)'
-        end
-
-        if opts[:start_year] && opts[:end_year]
-          start_year = "#{opts.delete(:start_year)}-01-01"
-          end_year = "#{opts.delete(:end_year)}-12-31"
-          filters << "date:[#{start_year} TO #{end_year}]"
-        end
-
-        filters.join(' AND ')
+        @filters.update!(opts)
+        @filters.to_query
       end
 
       def params(opts = {})
@@ -63,12 +62,6 @@ module Archivist
         }.merge(@opts).merge(opts)
       end
 
-      def search(opts = {})
-        Model::QueryResponse.new.tap do |qr|
-          response = @conn.get('/advancedsearch.php', params(opts))
-          Representation::QueryResponse.new(qr).from_json(response.body)
-        end
-      end
     end
   end
 end

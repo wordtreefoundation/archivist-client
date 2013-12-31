@@ -8,7 +8,7 @@ module Archivist
       attribute :formats
 
       def find(key)
-        formats.find{ |f| f.format == key }
+        formats.find{ |value| value.format == key }
       end
       alias_method :[], :find
 
