@@ -1,3 +1,7 @@
+# Version 0.1.5 /* JAN.05.2014
+
+* Fixed Homepage URL in gemspec for Rubygems.org
+
 # Version 0.1.4 /* DEC.31.2013
 
 * Turned on Travis CI by Peter Boling
