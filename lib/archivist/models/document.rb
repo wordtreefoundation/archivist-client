@@ -6,6 +6,8 @@ require 'date'
 module Archivist
   module Model
     class Document
+      UnsupportedFormat = Class.new(StandardError)
+
       include Virtus.model
 
       include Archivist::Client::Constants
@@ -33,9 +35,13 @@ module Archivist
       def download(format=:text)
         # e.g. format_index.text_format
         file_format = format_index.send(:"#{format}_format")
-        # e.g. /download/firstbooknapole00gruagoog/firstbooknapole00gruagoog_djvu.txt
-        @conn.get(download_path(file_format.name)).
-          body.force_encoding('UTF-8')
+        if file_format.nil?
+          raise UnsupportedFormat, "#{identifier} not available in format #{format}"
+        else
+          # e.g. /download/firstbooknapole00gruagoog/firstbooknapole00gruagoog_djvu.txt
+          @conn.get(download_path(file_format.name)).
+            body.force_encoding('UTF-8')
+        end
       end
 
       def download_path(file)

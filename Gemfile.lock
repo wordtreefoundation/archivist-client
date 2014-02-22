@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    archivist-client (0.1.4)
+    archivist-client (0.1.6)
       faraday
       faraday_middleware
       representable
@@ -35,7 +35,7 @@ GEM
     diff-lcs (1.2.5)
     docile (1.1.1)
     equalizer (0.0.9)
-    faraday (0.8.8)
+    faraday (0.8.9)
       multipart-post (~> 1.2.0)
     faraday_middleware (0.9.0)
       faraday (>= 0.7.4, < 0.9)
@@ -55,7 +55,7 @@ GEM
       ruby2ruby (~> 2.0.7)
       ruby_parser (~> 3.2)
       sexp_processor
-    representable (1.7.5)
+    representable (1.7.6)
       multi_json
       nokogiri
     rest-client (1.6.7)
