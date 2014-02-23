@@ -42,7 +42,6 @@ module Archivist
         Model::QueryResponse.new.tap do |qr|
           response = @conn.get('/advancedsearch.php', params(opts))
           rep = Representation::QueryResponse.new(qr)
-          puts "#{rep.inspect}"
           rep.from_json(response.body)
         end
       end

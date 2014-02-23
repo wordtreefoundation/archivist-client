@@ -8,6 +8,7 @@ module Archivist
       attribute :formats
 
       def find(key)
+        return nil if formats.nil?
         formats.find{ |value| value.format == key }
       end
       alias_method :[], :find
