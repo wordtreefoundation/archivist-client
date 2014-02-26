@@ -1,3 +1,7 @@
+# Version 0.1.6 /* FEB.26.2014
+* Raise UnsupportedFormat when archive.org doesn't have it by Duane Johnson
+* Fix nil formats case; repress debug info by Duane Johnson
+
 # Version 0.1.5 /* JAN.05.2014
 
 * Fixed Homepage URL in gemspec for Rubygems.org
