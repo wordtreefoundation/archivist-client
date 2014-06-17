@@ -11,7 +11,7 @@ an *archive.org* Ruby client
 | version                 |  [![Gem Version](https://badge.fury.io/rb/archivist-client.png)](http://badge.fury.io/rb/archivist-client) |
 | dependencies            |  [![Dependency Status](https://gemnasium.com/wordtreefoundation/archivist-client.png)](https://gemnasium.com/wordtreefoundation/archivist-client) |
 | code quality            |  [![Code Climate](https://codeclimate.com/github/wordtreefoundation/archivist-client.png)](https://codeclimate.com/github/wordtreefoundation/archivist-client) |
-| inline documenation     |  [![Inline docs](http://inch-pages.github.io/github/wordtreefoundation/archivist-client.png)](http://inch-pages.github.io/github/wordtreefoundation/archivist-client) |
+| inline documenation     |  [![Inline docs](http://inch-ci.org/github/wordtreefoundation/archivist-client.png)](http://inch-ci.org/github/wordtreefoundation/archivist-client) |
 | continuous integration  |  [![Build Status](https://secure.travis-ci.org/wordtreefoundation/archivist-client.png?branch=master)](https://travis-ci.org/wordtreefoundation/archivist-client) |
 | test coverage           |  [![Coverage Status](https://coveralls.io/repos/wordtreefoundation/archivist-client/badge.png)](https://coveralls.io/r/wordtreefoundation/archivist-client) |
 | homepage                |  [https://github.com/wordtreefoundation/archivist-client][homepage] |
