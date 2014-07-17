@@ -12,7 +12,8 @@ module Archivist
       STANDARD_OPTIONS = [
         :filters,
         :language,
-        :start_year, :end_year
+        :start_year, :end_year,
+        :identifier
       ]
       DEFAULT_FILTERS = [
         'mediatype:texts',
@@ -33,6 +34,7 @@ module Archivist
         self.prune_options(opts)
         self.set_language
         self.set_years
+        self.set_identifier
         self.set_filters
       end
 
@@ -68,6 +70,10 @@ module Archivist
         self.validate_years
       end
 
+      def set_identifier
+        @identifier = @options[:identifier] if @options.has_key?(:identifier)
+      end
+
       # If one is provided, they must *both* be provided
       def validate_years
         unless @start_year && @end_year
@@ -91,12 +97,21 @@ module Archivist
       end
 
       def add_date_filter
-        @filters << "date:[#{@start_year} TO #{@end_year}]"
+        if @start_year or @end_year
+          start_year = @start_year || "1400-01-01"
+          end_year = @end_year || "2100-12-31"
+          @filters << "date:[#{start_year} TO #{end_year}]"
+        end
+      end
+
+      def add_identifier
+        @filters << "identifier:#{@identifier}" if @identifier
       end
 
       def finalize_filters
-        self.add_language_filter
-        self.add_date_filter
+        add_language_filter
+        add_date_filter
+        add_identifier
         self
       end
     end
