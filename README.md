@@ -1,9 +1,7 @@
-Archivist::Client
+Archivist::Client - an *archive.org* Ruby client
 =========
 
-an *archive.org* Ruby client
-
-| Project                 |  Archive::Client    |
+| Project                 |  Archivist::Client    |
 |------------------------ | ----------------- |
 | gem name                |  archivist-client   |
 | license                 |  MIT              |
