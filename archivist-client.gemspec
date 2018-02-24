@@ -21,22 +21,21 @@ Gem::Specification.new do |gem|
   gem.version = Archivist::Client::VERSION
   gem.required_ruby_version = '>=2.4.0'
 
-  gem.add_development_dependency "rake"
-  gem.add_development_dependency "bundler", ">= 1.0.0"
+  gem.add_development_dependency "rake", "~> 12"
   gem.add_development_dependency "rspec", "~> 3.7"
   gem.add_development_dependency "webmock", "~> 3.3"
-  gem.add_development_dependency "vcr"
-  gem.add_development_dependency "roodi", ">= 2.1.0"
-  gem.add_development_dependency "gem-release", ">= 0.7.1"
-  gem.add_development_dependency "coveralls"
-  gem.add_development_dependency "rdoc", ">= 3.12"
-  gem.add_development_dependency "pry"
+  gem.add_development_dependency "vcr", "~> 4.0"
+  gem.add_development_dependency "roodi", "~> 2.1"
+  gem.add_development_dependency "gem-release", "~> 0.7"
+  gem.add_development_dependency "coveralls", "~> 0.8"
+  gem.add_development_dependency "rdoc", "~> 3.12"
+  gem.add_development_dependency "pry", "~> 0.11"
 
-  gem.add_dependency "virtus", "~> 1.0.0"
-  gem.add_dependency "representable"
-  gem.add_dependency "faraday"
-  gem.add_dependency "faraday_middleware"
-  gem.add_dependency "multi_json"
-  gem.add_dependency "nokogiri"
+  gem.add_dependency "virtus", "~> 1.0"
+  gem.add_dependency "representable", "~> 3.0"
+  gem.add_dependency "faraday", "~> 0.14"
+  gem.add_dependency "faraday_middleware", "~> 0.12"
+  gem.add_dependency "multi_json", "~> 1.13"
+  gem.add_dependency "nokogiri", "~> 1.8"
 
 end
