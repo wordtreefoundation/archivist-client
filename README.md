@@ -48,20 +48,6 @@ See the [Network View](https://github.com/wordtreefoundation/archivist-client/ne
 
 ## How you can help!
 
-Take a look at the `reek` list which is the file called `REEK` and stat fixing things.  Once you complete a change, run the tests:
-
-```
-bundle exec rspec spec
-```
-
-If the tests pass refresh the `reek` list:
-
-```
-bundle exec rake reek > REEK
-```
-
-Follow the instructions for "Contributing" below.
-
 ## Contributing
 
 1. Fork it

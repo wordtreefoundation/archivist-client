@@ -19,22 +19,24 @@ Gem::Specification.new do |gem|
   gem.test_files = Dir.glob("spec/**/*")
   gem.require_paths = ["lib"]
   gem.version = Archivist::Client::VERSION
-  gem.required_ruby_version = '>= 1.9.0'
+  gem.required_ruby_version = '>=2.4.0'
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "bundler", ">= 1.0.0"
-  gem.add_development_dependency "rspec", "~> 2.6"
-  gem.add_development_dependency "debugger"
-  gem.add_development_dependency "webmock", [">= 1.8.0", "< 1.16"]
+  gem.add_development_dependency "rspec", "~> 3.7"
+  gem.add_development_dependency "webmock", "~> 3.3"
   gem.add_development_dependency "vcr"
-  gem.add_development_dependency "reek", ">= 1.2.8"
   gem.add_development_dependency "roodi", ">= 2.1.0"
   gem.add_development_dependency "gem-release", ">= 0.7.1"
   gem.add_development_dependency "coveralls"
   gem.add_development_dependency "rdoc", ">= 3.12"
+  gem.add_development_dependency "pry"
 
   gem.add_dependency "virtus", "~> 1.0.0"
   gem.add_dependency "representable"
   gem.add_dependency "faraday"
   gem.add_dependency "faraday_middleware"
+  gem.add_dependency "multi_json"
+  gem.add_dependency "nokogiri"
+
 end
