@@ -17,8 +17,8 @@ module Archivist
       attribute :identifier, String
       attribute :title, String
       attribute :date, Date
-      attribute :languages, Array[String]
-      attribute :creators, Array[String]
+      attribute :language, String
+      attribute :creator, String
 
       def initialize
         @conn = DEFAULT_CONNECTION

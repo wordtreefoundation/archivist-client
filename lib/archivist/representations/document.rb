@@ -10,8 +10,8 @@ module Archivist
       property :identifier
       property :title
       property :date
-      collection :languages, as: "language"
-      collection :creators, as: "creator"
+      property :language
+      property :creator
     end
   end
 end
