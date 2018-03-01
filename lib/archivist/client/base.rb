@@ -42,7 +42,13 @@ module Archivist
         Model::QueryResponse.new.tap do |qr|
           response = @conn.get('/advancedsearch.php', params(opts))
           rep = Representation::QueryResponse.new(qr)
-          rep.from_json(response.body)
+          begin
+            rep.from_json(response.body)
+          rescue => e
+            $stderr.puts "Unable to parse as Archivist::Representation::QueryResponse:"
+            $stderr.puts response.body
+            raise e
+          end
         end
       end
 
