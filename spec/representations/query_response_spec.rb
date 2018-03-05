@@ -23,6 +23,6 @@ describe Archivist::Representation::QueryResponse do
   end
 
   it "has docs" do
-    rep.body.docs.first.languages.should == ["eng"]
+    rep.body.docs.first.language.should == ["eng"]
   end
 end

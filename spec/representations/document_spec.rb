@@ -11,7 +11,7 @@ describe Archivist::Representation::Document do
 
   it "has properties" do
     rep.title.should == "Document"
-    rep.languages.should == ["eng"]
+    rep.language.should == "eng"
     rep.date.should == Date.new(1501, 1, 1)
   end
 end

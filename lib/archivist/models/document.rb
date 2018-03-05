@@ -28,6 +28,7 @@ module Archivist
         response = @conn.get(index_xml_path)
         Model::FormatIndex.new.tap do |idx|
           rep = Representation::FormatIndex.new(idx)
+          # binding.pry
           rep.from_xml(response.body)
         end
       end

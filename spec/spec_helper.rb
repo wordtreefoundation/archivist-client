@@ -1,4 +1,5 @@
 require 'vcr'
+require 'pry'
 
 # For code coverage, must be required before all application / gem / library code.
 require 'coveralls'
