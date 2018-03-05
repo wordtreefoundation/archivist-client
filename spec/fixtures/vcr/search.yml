@@ -2,109 +2,134 @@
 http_interactions:
 - request:
     method: get
-    uri: http://archive.org/advancedsearch.php?fl%5B0%5D=identifier&fl%5B1%5D=title&fl%5B2%5D=creator&fl%5B3%5D=date&fl%5B4%5D=language&fl%5B5%5D=mediattype&output=json&page=1&q=mediatype:texts%20AND%20-mediatype:collection%20AND%20(language:eng%20OR%20language:English)%20AND%20date:%5B1500-01-01%20TO%201550-12-31%5D&rows=50&sort%5B0%5D=date%20asc
+    uri: http://archive.org/advancedsearch.php?fl%5B%5D=creator&fl%5B%5D=date&fl%5B%5D=identifier&fl%5B%5D=language&fl%5B%5D=mediattype&fl%5B%5D=title&output=json&page=1&q=mediatype:texts%20AND%20-mediatype:collection%20AND%20(language:eng%20OR%20language:English)%20AND%20date:%5B1500-01-01%20TO%201550-12-31%5D&rows=50&sort%5B%5D=date%20asc
     body:
       encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
-      - Faraday v0.8.8
+      - Faraday v0.14.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - "*/*"
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "U2VydmVy":
-      - !binary |-
-        bmdpbngvMS4xLjE5
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAwNiBOb3YgMjAxMyAwMzoxMDowMyBHTVQ=
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vanNvbg==
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29ubmVjdGlvbg==":
-      - !binary |-
-        a2VlcC1hbGl2ZQ==
-      !binary "WC1Qb3dlcmVkLUJ5":
-      - !binary |-
-        UEhQLzUuMy4xMC0xdWJ1bnR1My4y
-      !binary "Q29udGVudC1FbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 05 Mar 2018 04:54:24 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        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
-        1eeY6MPVx4//BfDUIWmcIwAA
+      encoding: UTF-8
+      string: '{"responseHeader":{"status":0,"QTime":51,"params":{"query":"mediatype:texts
+        AND -mediatype:collection AND ( language:eng OR language:English ) AND date:[1500-01-01T00\\:00\\:00Z
+        TO 1550-12-31T23\\:59\\:59Z]","qin":"mediatype:texts AND -mediatype:collection
+        AND (language:eng OR language:English) AND date:[1500-01-01 TO 1550-12-31]","fields":"identifier,title,creator,date,language,mediattype","wt":"json","sort":"date
+        asc","rows":"50","start":0}},"response":{"numFound":241,"start":0,"docs":[{"creator":"Savonarola,
+        Hieronymus","date":"1500-01-01T00:00:00Z","identifier":"ita-bnc-in1-00000134-001","language":"English","title":"Expositio
+        in Psalmum L (51) \"Miserere mei Deus\""},{"creator":"Lichtenberger, Johannes","date":"1500-01-01T00:00:00Z","identifier":"ita-bnc-in2-00001797-001","language":"English","title":"Prognosticatio"},{"creator":"Berris
+        Tres Riches Heures","date":"1500-01-01T00:00:00Z","identifier":"in.ernet.dli.2015.233866","language":"eng","title":"The
+        Rise Of Modern Europe(vol1)"},{"creator":"BURTON","date":"1500-01-01T00:00:00Z","identifier":"NewRichTextDocument_20170225","language":"eng","title":"New
+        Rich Text Document"},{"creator":"Aurelius Prudentius Clemens","date":"1501-01-01T00:00:00Z","identifier":"bub_gb_tNMb8PrO5yAC","language":"English","title":"Prudentii
+        poetae opera. Virtutum cum uitiis pugna, heroico carmine.. Prudentii poetae
+        opera. Virtutum cum uitiis pugna, heroico carmine. Hymni diurnarum rerum,
+        ad Gallicantum. Ad matutinum. Ante cibum. Post cibum. Ad lucernae accensionem.
+        Ante somnum .."},{"creator":"United States.: Bureau of Foreign and Domestic
+        Commerce","date":"1501-01-01T00:00:00Z","identifier":"supplementto5219152unit","language":"eng","title":"Supplement
+        to Commerce reports : daily consular and trade reports issued by the Bureau
+        of Foreign and Domestic Commerce, Department of Commerce"},{"creator":"Stephanus
+        (Byzantinus)","date":"1502-01-01T00:00:00Z","identifier":"bub_gb_1x5DAAAAcAAJ","language":"English","title":"Stephanos
+        Peri pole\u014dn De urbibus"},{"creator":["Worde, Wynkyn de, -1534?, printer","Tomkinson,
+        Michael, 1841-1921, former owner","Boule, Joannis, former owner"],"date":"1502-01-01T00:00:00Z","identifier":"chronycleofenglo00word","language":"eng","title":"Chronycle
+        of Englonde"},{"creator":"Lorenzo Astemio","date":"1502-01-01T00:00:00Z","identifier":"bub_gb_bopSAAAAcAAJ","language":"English","title":"Epaminundae
+        clarissimi Thebanorum ducis vita"},{"date":"1503-01-01T00:00:00Z","identifier":"bub_gb_ERBmAAAAcAAJ","language":"English","title":"Augustini
+        dati senensis opera. Edited by Girolamo Dati."},{"creator":"Archimedes","date":"1503-01-01T00:00:00Z","identifier":"bub_gb_9fNPAAAAcAAJ","language":"English","title":"Tetragonismus"},{"creator":"Xenophon","date":"1503-01-01T00:00:00Z","identifier":"bub_gb_UQ2ed0bfxt8C","language":"English","title":"Xenophontis
+        omissa quae & graeca gesta appellantur"},{"creator":"Xenophon","date":"1503-01-01T00:00:00Z","identifier":"bub_gb_RWb2TbT9BwkC","language":"English","title":"Xenophontis
+        omissa quae & graeca gesta appellantur"},{"creator":"Philoponus, John","date":"1504-01-01T00:00:00Z","identifier":"ita-bnc-ald-00000803-001","language":"English","title":"In
+        posteriora resolutoria Aristotelis commentaria"},{"creator":"T W Arnold","date":"1504-01-01T00:00:00Z","identifier":"in.ernet.dli.2015.169486","language":"eng","title":"The
+        Little Flowers Of S Francis Of Assisi"},{"date":"1506-01-01T00:00:00Z","identifier":"bub_gb_aI5mAAAAcAAJ","language":"English","title":"Alexandri
+        Achillini bononiensis de intelligentiis"},{"creator":"British Record Society","date":"1508-01-01T00:00:00Z","identifier":"indexlibrary8150brit_0","language":"eng","title":"The
+        Index library"},{"creator":["Page, William, 1861-1934","Huguenot Society of
+        London"],"date":"1509-01-01T00:00:00Z","identifier":"lettersofdenizat8150page","language":"eng","title":"Letters
+        of denization and acts of naturalization for aliens in England, 1509-1603"},{"creator":"United
+        States.: Bureau of Foreign and Domestic Commerce","date":"1509-01-01T00:00:00Z","identifier":"supplementto65191823unit","language":"eng","title":"Supplement
+        to Commerce reports : daily consular and trade reports issued by the Bureau
+        of Foreign and Domestic Commerce, Department of Commerce"},{"creator":"The
+        Cresset Press,london","date":"1509-01-01T00:00:00Z","identifier":"in.ernet.dli.2015.182336","language":"eng","title":"The
+        Beghinnings Of English Literature To Skelton"},{"creator":"British Record
+        Society","date":"1510-01-01T00:00:00Z","identifier":"indexlibrary1151brit_0","language":"eng","title":"The
+        Index library"},{"creator":"Antoninus (Florentinus)","date":"1511-01-01T00:00:00Z","identifier":"bub_gb_7w1KAAAAcAAJ","language":"English","title":"Tractatus
+        de censuris ecclesiasticis Item tractatus de sponsalibus & matrimoniis"},{"creator":"Helwig,
+        Andreas","date":"1512-01-01T00:00:00Z","identifier":"antichristusromanus","language":"eng","title":"Antichristus
+        Romanus"},{"creator":"Plat\u00f3n","date":"1513-01-01T00:00:00Z","identifier":"bub_gb_D9EFQicVLJMC_2","language":"English","title":"Apanta
+        ta tou Platonos"},{"creator":["Whittington, Robert, -approximately 1560","Negro,
+        Pescennio Francesco, 1452-","Worde, Wynkyn de, -1534? printer","Littlefield,
+        George Emery, 1844-1915, former owner","Shillaber, William Green, former owner","Leigh,
+        Chandos, 1791-1850, former owner"],"date":"1513-01-01T00:00:00Z","identifier":"robertiwhittinto00whit","language":"eng","title":"Roberti
+        whittintoni lichfeldiensis editio : secunda pars grammatices : De sillaba
+        et eius quantitate .."},{"date":"1514-01-01T00:00:00Z","identifier":"bub_gb_3ONLAAAAcAAJ","language":"English","title":"Erkl\u00e4rung
+        Entscheid und entlicher vortrag in den Irrungen zwischen der Geistlichkeit
+        und der Stadt Speier 1514"},{"creator":"Georg Peurbach","date":"1514-01-01T00:00:00Z","identifier":"bub_gb_SRYkk0MwYvQC","language":"English","title":"Tabulae
+        eclypsium magistri Georgij Peurbachij. Tabula primi mobilis Ioannis de Monteregio.
+        Indices praeterea monumentorum quae clarissimi uiri studii Viennensis alumni
+        in astronomia & aliis mathematicis disciplinis scripta reliquerunt. .."},{"creator":"British
+        Record Society","date":"1514-01-01T00:00:00Z","identifier":"indexlibrary1615brit_0","language":"eng","title":"The
+        Index library"},{"creator":"Macer Floridus , Macer, Odo , Aemilius Macer","date":"1515-01-01T00:00:00Z","identifier":"herbarumvariasq00macegoog","language":"eng","title":"Herbarum
+        varias qui vis cognoscere vires: huc Macer adest, quo duce doctor eris"},{"creator":"British
+        Record Society","date":"1516-01-01T00:00:00Z","identifier":"indexlibrary7151brit_0","language":"eng","title":"The
+        Index library"},{"creator":"Libanio","date":"1517-01-01T00:00:00Z","identifier":"bub_gb_qPzCHRlM5tEC","language":"English","title":"Libaniou
+        sophistou Meletai logoi te kai ekphraseis"},{"creator":"Aristides retore (retore)","date":"1517-01-01T00:00:00Z","identifier":"bub_gb_lFTiWgNN41kC","language":"English","title":"Logoi
+        Aristeidou. Orationes Aristidis"},{"creator":"United States.: Bureau of Foreign
+        and Domestic Commerce","date":"1517-01-01T00:00:00Z","identifier":"supplementtoc19191820unit","language":"eng","title":"Supplement
+        to Commerce reports : daily consular and trade reports issued by the Bureau
+        of Foreign and Domestic Commerce, Department of Commerce"},{"creator":["Llull,
+        Ramon, 1232?-1316","Lavinheta, Bernardus de"],"date":"1517-01-01T00:00:00Z","identifier":"illuminatisacrep00llul","language":"eng","title":"Illuminati
+        sacre pagine p.fessoris amplissimi magistri Raymundi Lull. Ars magna, generalis
+        et vltima : quarucunq3 artium [et] scientiarum ipsius Lull. assecutrix et
+        clauigera : [et] ad eas aditum faciliore prebes, antehac nusq3 arti impressorie
+        emuctius c\u00f5mendata"},{"creator":["Llull, Ramon, 1232?-1316","Lavinheta,
+        Bernardus de"],"date":"1517-01-01T00:00:00Z","identifier":"gri_c00033125008263424","language":"eng","title":"Illuminati
+        sacre pagine p.fessoris amplissimi magistri Raymundi Lull. Ars magna, generalis
+        et vltima : quaru\u0303cunq3 artium [et] scientiarum ipsius Lull. assecutrix
+        et clauigera : [et] ad eas aditum faciliore\u0303 prebe\u0303s, antehac nusq\u03033
+        arti impressorie emu\u0303ctius co\u0303mendata"},{"date":"1518-01-01T00:00:00Z","identifier":"bub_gb_yVjXiO4WphEC","language":"English","title":"Commentarii
+        in septem tragedias Sophoclis quae ex aliis eius compluribus iniuria temporum
+        amissis, solae superfuerunt opus exactissimum rarissimumque in Gymnasio Mediceo
+        ... recognitum repurgatumque .."},{"creator":"Jakob Mennel","date":"1518-01-01T00:00:00Z","identifier":"bub_gb_qkpTAAAAcAAJ","language":"English","title":"De
+        inclito atque apud Germanos rarissimo actu ecclesiastico Kalend. Augusti Auguste,
+        celebrato anno domini 1518"},{"creator":"Ulrich Zasius","date":"1519-01-01T00:00:00Z","identifier":"bub_gb_4EpTAAAAcAAJ","language":"English","title":"Oratio
+        Friburgi in funere Maximiliani Imp. habita"},{"creator":"Aristoteles","date":"1519-01-01T00:00:00Z","identifier":"bub_gb_rzHa0ZmorUkC","language":"English","title":"Aristotelis
+        Tres de anima libri per Joannem Argyropylum e greco in latinum traducti"},{"creator":"Jakob
+        Sprenger","date":"1519-01-01T00:00:00Z","identifier":"bub_gb_TTg8AAAAcAAJ","language":"English","title":"Malleus
+        maleficarum"},{"creator":"Martin Luther","date":"1520-01-01T00:00:00Z","identifier":"bub_gb_L1ZdAAAAcAAJ","language":"English","title":"Ein
+        Sermon von dem n\u00fcwen Testament das ist von der heiligen Me\u00df"},{"creator":"\u00c9tienne
+        de La Roche","date":"1520-01-01T00:00:00Z","identifier":"bub_gb_9xg8AAAAcAAJ","language":"English","title":"L''
+        arismethique nouellement composee"},{"creator":"Carver, Robert","date":"1520-01-01T00:00:00Z","identifier":"imslp-bone-jesu--19-carver-robert","language":"English","title":"O
+        bone Jesu \u00e0 19"},{"creator":"Ferdinando Ponzetti","date":"1521-01-01T00:00:00Z","identifier":"bub_gb_QghTAAAAcAAJ","language":"English","title":"Summa
+        brevis Theologiae"},{"creator":["[London]Printed for the Chetham society,","Bradshaw,
+        Henry, d. 1513","Hawkins, Edward, 1780-1867, ed"],"date":"1521-01-01T00:00:00Z","identifier":"holylyfehistoryo00lond","language":"eng","title":"The
+        holy lyfe and history of Saynt Werburge,very frutefull for all Christen people
+        to rede."},{"date":"1521-01-01T00:00:00Z","identifier":"passyonsicofourl00rivi","language":"eng","title":"The
+        passyon of our lorde"},{"creator":"Apollonius : Rhodius","date":"1521-01-01T00:00:00Z","identifier":"bub_gb_iZYX7VSahu8C","language":"English","title":"Apolloniou
+        tou rodiou Argonautika, meta t\u014dn palai\u014dn te, kai panu \u014dphelimon
+        scholi\u014dn. Apollonij rhodij Argonautica, antiquis una, & optimis cum commentarijs"},{"creator":["Bradshaw,
+        Henry, d. 1513","Hawkins, Edward, 1780-1867, ed"],"date":"1521-01-01T00:00:00Z","identifier":"holylyfeandhist00hawkgoog","language":["eng","lat"],"title":"The
+        holy lyfe and history of Saynt Werburge, very frutefull for all Christen people
+        to rede"},{"creator":"Andrew, Laurence","date":"1521-01-01T00:00:00Z","identifier":"hin-wel-all-00001107-001","language":"eng","title":"The
+        noble lyfe & natures of man, of bestes, serpentys, fowles & fisshes yt be
+        moste knowen / [Laurence Andrew]"},{"creator":["Bradshaw, Henry, d. 1513","Hawkins,
+        Edward, 1780-1867, ed"],"date":"1521-01-01T00:00:00Z","identifier":"holylyfeandhist02hawkgoog","language":["eng","lat"],"title":"The
+        holy lyfe and history of Saynt Werburge, very frutefull for all Christen people
+        to rede"}]}}'
     http_version: 
-  recorded_at: Wed, 06 Nov 2013 03:10:04 GMT
-recorded_with: VCR 2.2.5
+  recorded_at: Mon, 05 Mar 2018 04:54:24 GMT
+recorded_with: VCR 4.0.0

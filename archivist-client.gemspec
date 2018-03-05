@@ -37,5 +37,4 @@ Gem::Specification.new do |gem|
   gem.add_dependency "faraday_middleware", "~> 0.12"
   gem.add_dependency "multi_json", "~> 1.13"
   gem.add_dependency "nokogiri", "~> 1.8"
-
 end
