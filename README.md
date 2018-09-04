@@ -7,7 +7,7 @@ Archivist::Client - an *archive.org* Ruby client
 | license                 |  MIT              |
 | moldiness               |  [![Maintainer Status](http://stillmaintained.com/wordtreefoundation/archivist-client.png)](http://stillmaintained.com/wordtreefoundation/archivist-client) |
 | version                 |  [![Gem Version](https://badge.fury.io/rb/archivist-client.png)](http://badge.fury.io/rb/archivist-client) |
-| dependencies            |  [![Dependency Status](https://gemnasium.com/wordtreefoundation/archivist-client.png)](https://gemnasium.com/wordtreefoundation/archivist-client) |
+| dependencies            |  [![Depfu](https://badges.depfu.com/badges/dc329b01f16a110144f5eccb01fb5246/count.svg)](https://depfu.com/github/wordtreefoundation/archivist-client?project=Bundler) |
 | code quality            |  [![Code Climate](https://codeclimate.com/github/wordtreefoundation/archivist-client.png)](https://codeclimate.com/github/wordtreefoundation/archivist-client) |
 | inline documenation     |  [![Inline docs](http://inch-ci.org/github/wordtreefoundation/archivist-client.png)](http://inch-ci.org/github/wordtreefoundation/archivist-client) |
 | continuous integration  |  [![Build Status](https://secure.travis-ci.org/wordtreefoundation/archivist-client.png?branch=master)](https://travis-ci.org/wordtreefoundation/archivist-client) |
