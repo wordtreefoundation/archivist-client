@@ -25,7 +25,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "rspec", "~> 3.7"
   gem.add_development_dependency "webmock", "~> 3.3"
   gem.add_development_dependency "vcr", "~> 4.0"
-  gem.add_development_dependency "roodi", "~> 2.1"
+  gem.add_development_dependency "roodi", "~> 5.0"
   gem.add_development_dependency "gem-release", "~> 2.0"
   gem.add_development_dependency "coveralls", "~> 0.8"
   gem.add_development_dependency "rdoc", "~> 6.0"
