@@ -13,8 +13,8 @@ Archivist::Client - an *archive.org* Ruby client
 | test coverage           |  [![Coverage Status](https://coveralls.io/repos/wordtreefoundation/archivist-client/badge.png)](https://coveralls.io/r/wordtreefoundation/archivist-client) |
 | homepage                |  [https://github.com/wordtreefoundation/archivist-client][homepage] |
 | documentation           |  [http://rdoc.info/github/wordtreefoundation/archivist-client/frames][documentation] |
-| authors                 |  [Duane Johnson](https://coderbits.com/canadaduane) [![Endorse Duane](https://api.coderwall.com/canadaduane/endorsecount.png)](http://coderwall.com/canadaduane) |
-|                         |  [Peter Boling](https://coderbits.com/pboling) [![Endorse Peter](https://api.coderwall.com/pboling/endorsecount.png)](http://coderwall.com/pboling) |
+| authors                 |  [![Tweet Duane](https://img.shields.io/twitter/follow/canadaduane.svg?style=social&label=Follow)](https://twitter.com/canadaduane) |
+|                         |  [![Tweet Peter](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/galtzo) |
 
 
 Getting Started
