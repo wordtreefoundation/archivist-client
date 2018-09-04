@@ -5,7 +5,6 @@ Archivist::Client - an *archive.org* Ruby client
 |------------------------ | ----------------- |
 | gem name                |  archivist-client   |
 | license                 |  MIT              |
-| moldiness               |  [![Maintainer Status](http://stillmaintained.com/wordtreefoundation/archivist-client.png)](http://stillmaintained.com/wordtreefoundation/archivist-client) |
 | version                 |  [![Gem Version](https://badge.fury.io/rb/archivist-client.png)](http://badge.fury.io/rb/archivist-client) |
 | dependencies            |  [![Depfu](https://badges.depfu.com/badges/dc329b01f16a110144f5eccb01fb5246/count.svg)](https://depfu.com/github/wordtreefoundation/archivist-client?project=Bundler) |
 | code quality            |  [![Code Climate](https://codeclimate.com/github/wordtreefoundation/archivist-client.png)](https://codeclimate.com/github/wordtreefoundation/archivist-client) |
@@ -89,5 +88,4 @@ For example:
 [documentation]: http://rdoc.info/github/wordtreefoundation/archivist-client/frames
 [homepage]: https://github.com/wordtreefoundation/archivist-client
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wordtreefoundation/archivist-client/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
