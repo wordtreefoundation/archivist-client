@@ -11,7 +11,7 @@ Archivist::Client - an *archive.org* Ruby client
 | inline documenation     |  [![Inline docs](http://inch-ci.org/github/wordtreefoundation/archivist-client.png)](http://inch-ci.org/github/wordtreefoundation/archivist-client) |
 | continuous integration  |  [![Build Status](https://secure.travis-ci.org/wordtreefoundation/archivist-client.png?branch=master)](https://travis-ci.org/wordtreefoundation/archivist-client) |
 | test coverage           |  [![Coverage Status](https://coveralls.io/repos/wordtreefoundation/archivist-client/badge.png)](https://coveralls.io/r/wordtreefoundation/archivist-client) |
-| homepage                |  [![Homepage](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/wordtreefoundation/archivist-client) |
+| homepage                |  [![GitHub stars](https://img.shields.io/github/stars/wordtreefoundation/archivist-client.svg?style=social&label=Stars)](https://github.com/wordtreefoundation/archivist-client) |
 | documentation           |  [http://rdoc.info/github/wordtreefoundation/archivist-client/frames][documentation] |
 | authors                 |  Duane [![Tweet Duane](https://img.shields.io/twitter/follow/canadaduane.svg?style=social&label=Follow)](https://twitter.com/canadaduane) |
 |                         |  Peter [![Tweet Peter](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/galtzo) |
