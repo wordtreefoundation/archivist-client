@@ -4,7 +4,7 @@ Archivist::Client - an *archive.org* Ruby client
 | Project                 |  Archivist::Client    |
 |------------------------ | ----------------- |
 | gem name                |  archivist-client   |
-| license                 |  MIT              |
+| license                 |  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) |
 | version                 |  [![Gem Version](https://badge.fury.io/rb/archivist-client.png)](http://badge.fury.io/rb/archivist-client) |
 | dependencies            |  [![Depfu](https://badges.depfu.com/badges/dc329b01f16a110144f5eccb01fb5246/count.svg)](https://depfu.com/github/wordtreefoundation/archivist-client?project=Bundler) |
 | code quality            |  [![Code Climate](https://codeclimate.com/github/wordtreefoundation/archivist-client.png)](https://codeclimate.com/github/wordtreefoundation/archivist-client) |
