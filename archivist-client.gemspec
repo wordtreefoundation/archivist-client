@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
   gem.version = Archivist::Client::VERSION
   gem.required_ruby_version = '>=2.4.0'
 
-  gem.add_development_dependency "rake", "~> 12"
+  gem.add_development_dependency "rake", "~> 13"
   gem.add_development_dependency "rspec", "~> 3.7"
   gem.add_development_dependency "webmock", "~> 3.3"
   gem.add_development_dependency "vcr", "~> 5.0"
