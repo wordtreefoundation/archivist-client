@@ -34,7 +34,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "virtus", "~> 1.0"
   gem.add_dependency "representable", "~> 3.0"
   gem.add_dependency "faraday", "~> 0.14"
-  gem.add_dependency "faraday_middleware", "~> 0.12"
+  gem.add_dependency "faraday_middleware", "~> 1.0"
   gem.add_dependency "multi_json", "~> 1.13"
   gem.add_dependency "nokogiri", "~> 1.8"
 end
